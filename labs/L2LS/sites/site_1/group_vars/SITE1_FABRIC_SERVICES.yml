@@ -4,8 +4,8 @@ tenants:
     vrfs:
       - name: default
         svis:
-          - id: 10
-            name: 'Tien'
+          - id: 30
+            name: 'Thirty'
             tags: [ "Web" ]
             enabled: true
             ip_virtual_router_addresses:
