@@ -51,7 +51,7 @@ vlans:
   trunk_groups:
   - MLAG
 - id: 10
-  name: Ten
+  name: Tien
   tenant: MY_FABRIC
 - id: 20
   name: Twenty
@@ -74,7 +74,7 @@ vlan_interfaces:
   tenant: MY_FABRIC
   tags:
   - Web
-  description: Ten
+  description: Tien
   shutdown: false
   ip_address: 10.10.10.3/24
   ip_virtual_router_addresses:

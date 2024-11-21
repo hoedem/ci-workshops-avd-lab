@@ -270,7 +270,7 @@ vlan internal order ascending range 1006 1199
 
 | VLAN ID | Name | Trunk Groups |
 | ------- | ---- | ------------ |
-| 10 | Ten | - |
+| 10 | Tien | - |
 | 4094 | MLAG_PEER | MLAG |
 
 ### VLANs Device Configuration
@@ -278,7 +278,7 @@ vlan internal order ascending range 1006 1199
 ```eos
 !
 vlan 10
-   name Ten
+   name Tien
 !
 vlan 4094
    name MLAG_PEER

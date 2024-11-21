@@ -273,7 +273,7 @@ vlan internal order ascending range 1006 1199
 
 | VLAN ID | Name | Trunk Groups |
 | ------- | ---- | ------------ |
-| 10 | Ten | - |
+| 10 | Tien | - |
 | 20 | Twenty | - |
 | 4093 | LEAF_PEER_L3 | LEAF_PEER_L3 |
 | 4094 | MLAG_PEER | MLAG |
@@ -283,7 +283,7 @@ vlan internal order ascending range 1006 1199
 ```eos
 !
 vlan 10
-   name Ten
+   name Tien
 !
 vlan 20
    name Twenty
@@ -450,7 +450,7 @@ interface Loopback0
 
 | Interface | Description | VRF |  MTU | Shutdown |
 | --------- | ----------- | --- | ---- | -------- |
-| Vlan10 | Ten | default | - | False |
+| Vlan10 | Tien | default | - | False |
 | Vlan20 | Twenty | default | - | False |
 | Vlan4093 | MLAG_PEER_L3_PEERING | default | 1500 | False |
 | Vlan4094 | MLAG_PEER | default | 1500 | False |
@@ -469,7 +469,7 @@ interface Loopback0
 ```eos
 !
 interface Vlan10
-   description Ten
+   description Tien
    no shutdown
    ip address 10.10.10.3/24
    ip virtual-router address 10.10.10.1

@@ -45,7 +45,7 @@ vlans:
   trunk_groups:
   - MLAG
 - id: 10
-  name: Ten
+  name: Tien
   tenant: MY_FABRIC
 vlan_interfaces:
 - name: Vlan4094
